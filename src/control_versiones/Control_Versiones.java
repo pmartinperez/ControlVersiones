@@ -12,6 +12,9 @@ public class Control_Versiones {
         System.out.println("Se ha hecho un merge con la rama experimental");
         
         //Vamos a crear una situacion de conflicto
+        for(int i=0;i<5;i++){
+            System.out.println("Se suman dos numeros");
+        }
         
     }
     
