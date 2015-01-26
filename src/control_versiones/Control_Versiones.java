@@ -12,6 +12,9 @@ public class Control_Versiones {
         System.out.println("Se ha hecho un merge con la rama experimental");
         
         System.out.println("Nueva rama EXPERIMENTO2");
+        for(int i=1;i<5;i++){
+            int suma=2+3;
+        }
     }
     
 }
