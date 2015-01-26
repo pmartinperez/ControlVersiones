@@ -15,6 +15,11 @@ public class Control_Versiones {
         for(int i=1;i<5;i++){
             int suma=2+3;
         }
+        //Vamos a crear una situacion de conflicto
+        for(int i=0;i<5;i++){
+            System.out.println("Se suman dos numeros");
+        }
+        
     }
     
 }
