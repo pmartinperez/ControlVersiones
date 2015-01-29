@@ -20,7 +20,7 @@ public class Control_Versiones {
         for(int i=1;i<5;i++){
             suma=2+3;
         }
-        System.out.println("Se suman dos numeros");
+        System.out.println("PATRI NO ENTIENDO QUE HACE TU PROGRAMA JEJE");
         //Vamos a crear una situacion de conflicto
         for(int i=0;i<5;i++){
             System.out.println(i+" --> "+(suma+i));
