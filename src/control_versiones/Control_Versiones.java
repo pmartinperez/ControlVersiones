@@ -6,6 +6,7 @@ public class Control_Versiones {
 
     
     public static void main(String[] args) {
+        int suma=0;
         System.out.println("Probando checkout revision");
         System.out.println("Inicio de la branch experimentos");
         System.out.println("Se ha creado una clase nueva en la rama experimental donde probaremos nuestras cosillas");
@@ -13,11 +14,12 @@ public class Control_Versiones {
         
         System.out.println("Nueva rama EXPERIMENTO2");
         for(int i=1;i<5;i++){
-            int suma=2+3;
+            suma=2+3;
         }
+        System.out.println("Se suman dos numeros");
         //Vamos a crear una situacion de conflicto
         for(int i=0;i<5;i++){
-            System.out.println("Se suman dos numeros");
+            System.out.println(i+" --> "+(suma+i));
         }
         
     }
